@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Starship</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        
+        body {
+            font-family: 'Futura', sans-serif;
+        }
+        h1.display-1 {
+            color: #00008B; 
+        }
+        h1.display-6 {
+            color: #FFA07A; 
+        }
+        h2 {
+            text-transform: uppercase;
+        }
+        .texto-informativo {
+            font-size: 18px;
+            color: #333;
+        }
+        .formulario-suscripcion {
+            margin-top: 20px;
+            background-color: #FFDAB9; 
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .centrado-vertical {
+            display: flex;
+            align-items: center;
+        }
+        .espacio-horizontal {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <span class="navbar-brand mb-0 h1">SpaceX Starship</span>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <h1 class="display-1">Starship</h1>
+                <h1 class="display-6">servicio a la órbita terrestre, la luna, marte y más allá</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/SpaceX_Logo_Black.png" class="img-fluid" alt="Logo de SpaceX" style="max-width: 40%; margin: auto;">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <img src="https://wp.technologyreview.com/wp-content/uploads/2021/12/48953946911_7dae1036a2_o.jpg" class="img-fluid" alt="Starship de SpaceX">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="texto-informativo">
+                    <p>La Starship es una nave espacial completamente reutilizable actualmente desarrollada por SpaceX. Diseñada para misiones interplanetarias, la Starship es parte del proyecto de la colonización de Marte y eventualmente se espera que realice vuelos a otros planetas del sistema solar.</p>
+                    <p>Para más información sobre la Starship, visita el sitio web oficial de <a href="https://www.spacex.com/starship" target="_blank">SpaceX</a>.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Características principales:</h2>
+                <ul class="lista-caracteristicas list-unstyled">
+                    <li><span class="icono"><i class="bi bi-person-circle"></i></span> Capacidad para transportar hasta 100 pasajeros</li>
+                    <li><span class="icono"><i class="bi bi-recycle"></i></span> Reutilizable</li>
+                    <li><span class="icono"><i class="bi bi-gear"></i></span> Diseño innovador para vuelos interplanetarios</li>
+                    <li><span class="icono"><i class="bi bi-moisture"></i></span> Impulsada por motores de metano líquido</li>
+                </ul>
+            </div>            
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="formulario-suscripcion">
+                    <h2>Suscríbete para recibir más información:</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
